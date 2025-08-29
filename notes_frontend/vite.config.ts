@@ -53,7 +53,9 @@ export default defineConfig(({ command, mode }): UserConfig => {
       },
       port: 3000,
       host: '0.0.0.0',
-      allowedHosts: ['.kavia.ai'],
+      proxy: {
+        // If needed, add proxy configuration here
+      }
     },
     preview: {
       headers: {

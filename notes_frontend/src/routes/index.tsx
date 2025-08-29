@@ -3,19 +3,15 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 
 // PUBLIC_INTERFACE
 export default component$(() => {
-  return (
-    <div class="page-container">
-      <h1 class="main-title">notes_frontend is being generated</h1>
-    </div>
-  );
+  return null;
 });
 
 export const head: DocumentHead = {
-  title: "notes_frontend",
+  title: "Personal Notes",
   meta: [
     {
       name: "description",
-      content: "Ultralight Qwik template",
+      content: "Personal notes management application",
     },
   ],
 };
